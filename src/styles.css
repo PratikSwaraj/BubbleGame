@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: #bfd3c1;
+  height: 100vh;
+}
+
+.App {
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.wrapper {
+  height: 80%;
+  width: 80%;
+  background-color: #4a442d;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.nav {
+  height: 40px;
+  width: 100%;
+  background-color: #c5e6a6;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.data {
+  font-size: 25px;
+  color: red;
+}
+
+.bubblewrap {
+  width: 100%;
+  height: calc(100% - 40px);
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.bubble {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 56px;
+  height: 56px;
+  background-color: #68a691;
+  border-radius: 50%;
+  color: white;
+  font-weight: 500;
+}
+
+.bubble:hover {
+  background-color: #4dcea3;
+  cursor: pointer;
+}
+
+.gameover h1 {
+  font-size: 50px;
+}
+
+.gameover h2 {
+  font-size: 30px;
+  color: #80ced7;
+}
